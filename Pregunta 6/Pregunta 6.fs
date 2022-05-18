@@ -21,10 +21,10 @@ let main argv =
     let tecla = Console.ReadLine();
     let valor = Convert.ToInt32(tecla);
     Console.WriteLine("Inserte un numero:");
-    //Guardo el primer numero ingresado por el usuario
+    //Obtengo el primer numero ingresado por el usuario
     let str1 = Console.ReadLine();
     Console.WriteLine("Inserte un numero:");
-    //Guardo el segundo numero ingresado por el usuario
+    //Obtengo el segundo numero ingresado por el usuario
     let str2 = Console.ReadLine();
     let numero1 = Convert.ToInt32(str1);
     let numero2 = Convert.ToInt32(str2);
